@@ -1,0 +1,18 @@
+插入排序
+
+算法描述：
+
+插入排序可以想象成摸扑克牌，第一张当成已经排序好的数组，后续的数据在已经排序好的数组里进行比较然后插入即可。注意总共有Array.length个数据，已经排序好的数组A[1,2...,j-1],剩下要排序的数组B[j,j+1...,Array.length],插入的数组要进行数据的移位操作。
+
+时间复杂度：O(n*n)，插入排序效率的最好情况运行时间为O(n)
+空间复杂度：O(1) 
+
+伪代码：
+
+for i=1 to Array.length
+    target = Array[i];
+    j = i;
+    while j>0 && Array[j-1]>target
+	Array[j] = Array[j-1];
+	j--;
+    Array[j]=target;
