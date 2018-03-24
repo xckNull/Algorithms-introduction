@@ -1,3 +1,4 @@
+package algorithms.introduction.sort.test;
 import org.junit.Test;
 
 import algorithms.introduction.sort.InsertSort;
