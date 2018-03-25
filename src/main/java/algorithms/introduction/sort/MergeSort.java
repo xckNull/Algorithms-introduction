@@ -25,7 +25,7 @@ public class MergeSort {
 		int i = left;// 左序列指针
 		int j = mid + 1;// 右序列指针
 		int t = 0;// 临时数组指针
-		while (i <= mid && j <= right) {
+		while (i <= mid && j <= right) {// 将左右两个序列比较，值小的放入临时数组
 			if (arr[i] <= arr[j]) {
 				temp[t++] = arr[i++];
 			} else {
@@ -39,8 +39,7 @@ public class MergeSort {
 			temp[t++] = arr[j++];
 		}
 		t = 0;
-		// 将temp中的元素全部拷贝到原数组中
-		while (left <= right) {
+		while (left <= right) {// 将temp中的元素全部拷贝到原数组中
 			arr[left++] = temp[t++];
 		}
 	}
