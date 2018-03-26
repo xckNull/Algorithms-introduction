@@ -1,0 +1,14 @@
+计数排序
+算法描述：是一种通过计数来达到排序的方法。
+1.选出数组的最大值k，创建一个k+1长度的数组countArray，countArray的数组下标代表array数组中的元素值，而countArray中的元素值代表的是array中每一个元素的出现次数。
+2.遍历array数组，统计每个元素的出现次数。例如array[0]是7，那么countArray[7]++，因为countArray的下标代表array中的数。统计完如下图。
+3.对countArray进行循环，对每一个元素countArray[i] = countArray[i] + countArray[i-1]，目的是统计每一个元素前面有多少个小于它的元素。
+4.复制array数组存到temp中，循环temp，将temp中i位置的的元素放到array中的--countArray[temp[i]]位置。也就是array[--countArray[temp[i]]] = temp[i]。
+
+注意:
+1.数组只能是整形数组。
+2.数组元素必须都大于0。
+3.计数排序是一种拿空间换时间的排序算法。
+
+时间复杂度：O(n)
+空间复杂度：O(n)
