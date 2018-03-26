@@ -1,5 +1,10 @@
 package algorithms.introduction.sort;
 
+/**
+ * Shell Sort
+ * @author xckNull
+ *
+ */
 public class ShellSort {
 
 	public static void shellSort(int[] arr) {
