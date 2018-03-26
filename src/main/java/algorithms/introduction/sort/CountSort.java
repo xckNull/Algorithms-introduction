@@ -2,6 +2,11 @@ package algorithms.introduction.sort;
 
 import java.util.Arrays;
 
+/**
+ * Count Sort
+ * @author xckNull
+ *
+ */
 public class CountSort {
 	
 	public static void countSort(int[] array) {

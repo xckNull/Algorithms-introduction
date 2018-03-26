@@ -2,6 +2,11 @@ package algorithms.introduction.sort;
 
 import java.util.Arrays;
 
+/**
+ * Radix Sort
+ * @author xckNull
+ *
+ */
 public class RadixSort {
 
 	public static void radixSort(int[] arr, int radix, int d) {

@@ -1,0 +1,2 @@
+TimSort
+ Jdk7以后，对应基本变量数组采用变异的快速排序方法DualPivotQuicksort，对于对象数组比较由原来的mergeSort改为ComparableTimSort方法，TimSort当数组大小小于32时，采用二分插入排序算法，当大于32时，采用基于块-区run的归并排序。所以TimSort是一种二分插入排序和归并排序的变种算法。对对象进行排序，没有采用快速排序，是因为快速排序是不稳定的，而Timsort是稳定的。与其他合并排序一样，Timesrot是稳定的排序算法，最坏时间复杂度是O（n log n）。在最坏情况下，Timsort算法需要的临时空间是n/2，在最好情况下，它只需要一个很小的临时存储空间。
