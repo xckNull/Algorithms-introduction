@@ -1,4 +1,4 @@
-package algorithms.introduction.sort.test;
+package algorithms.introduction.leetcode.test;
 
 import org.junit.Test;
 
