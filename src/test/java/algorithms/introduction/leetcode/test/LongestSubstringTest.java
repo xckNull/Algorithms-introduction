@@ -7,7 +7,7 @@ import algorithms.introduction.leetcode.LongestSubstring;
 public class LongestSubstringTest {
 
 	@Test
-	public static void testLongestSubstring() {
+	public void testLongestSubstring() {
 		String s = "accbd";
 		System.out.println(LongestSubstring.lengthOfLongestSubstring1(s));
 		System.out.println(LongestSubstring.lengthOfLongestSubstring2(s));
