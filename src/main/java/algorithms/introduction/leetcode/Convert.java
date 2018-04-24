@@ -23,9 +23,4 @@ public class Convert {
         return sb.toString();
     }
 	
-	public static void main(String[] args) {
-		String s = "PAYPALISHIRING";
-		System.out.println(convert(s,3));
-		System.out.println(convert(s,4));
-	}
 }
