@@ -102,9 +102,4 @@ public class FindMedianSortedArrays {
 		}
 	}
 
-	public static void main(String[] args) {
-		int[] nums1 = { 1, 3, 3 };
-		int[] nums2 = {};
-		System.out.println(findMedianSortedArrays2(nums1, nums2));
-	}
 }

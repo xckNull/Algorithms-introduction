@@ -136,8 +136,4 @@ public class LongestPalindrome {
 
 	}
 
-	public static void main(String[] args) {
-		String s = "abcdad";
-		System.out.println(longestPalindrome4(s));
-	}
 }
